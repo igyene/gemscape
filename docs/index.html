@@ -1,6 +1,13 @@
 <html>
+    <head>
+        <script>
+            window.onload = function(e){
+                document.getElementById("vid").controls = true;
+            }
+        </script>
+    </head>
 <body>
-    <video width="1280" height="720">
+    <video width="1280" height="720" id="vid">
         <source src="https://raw.githubusercontent.com/igyene/gemscape/main/gemscape.mp4" type="video/mp4" controls="controls" autoplay>
     </video>
     <br>
